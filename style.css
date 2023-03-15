@@ -1,0 +1,75 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+  background-color: #A2C3A4
+
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #3a5139;
+}
+
+.title {
+  color: #3a5139;
+}
+
+ 
+
+
+
+
+.story-opening{
+   display:none;
+}
+
+.option-one{
+   display:none;
+}
+
+.option-two-quick-ending{
+   display:none;
+}
+
+
+.option-one-ending{
+   display:none;
+}
+
+.option-two-ending{
+   display:none;
+}
+
+.black-image-with-words{
+  display:none;
+}
+
+ .cheering-children{
+   display:none;
+ }
