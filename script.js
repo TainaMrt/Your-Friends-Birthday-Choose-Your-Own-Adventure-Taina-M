@@ -1,6 +1,7 @@
-/* Declare variables below to save the different sections (divs) of your story*/
+
 
 let title = document.querySelector(".title");
+let playerName = document.querySelector(".player-name");
 let storyOpening = document.querySelector(".story-opening");
 let optionTwoQuickEnd = document.querySelector(".option-two-quick-ending");
 let optionOne = document.querySelector(".option-one");
@@ -19,6 +20,7 @@ let optionOneButtonStart = document.querySelector(".option-one-button-start");
 let optionTwoButtonStart = document.querySelector(".option-two-button-start");
 let optionOneButtonUp = document.querySelector(".option-one-button-up");
 let optionTwoButtonUp = document.querySelector(".option-two-button-up");
+let startGameButton = document.querySelector(".start_game_button");
 
 
 
@@ -36,8 +38,14 @@ let optionTwoButtonUp = document.querySelector(".option-two-button-up");
 
 
 title.onclick = function() {
-  storyOpening.style.display = "block";
+  playerName.style.display = "block";
   title.style.display = "none";
+
+};
+
+  startGameButton.onclick = function() {
+  playerName.style.display = "none";
+  storyOpening.style.display = "block";
 
 };
 
